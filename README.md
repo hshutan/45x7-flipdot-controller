@@ -42,7 +42,7 @@ Luminator and MAX3000 are trade names of the Luminator Technology Group, not min
   - Arduino Uno pin 13, to SCK on PCB
   - Arduino Uno pin 10, to RCK on PCB
   - Arduino 5v, to 5v+ on PCB
-8. Connect a power supply (start with 10-12 volts) to GND and Flip+ on the PCB
+8. Connect a power supply (start with 10-12 volts) to GND and Flip+ on the PCB. For prototyping, use a constant voltage/constant current power supply. This will allow you to limit the current to 100mA (or less) for safety, and also to test flip reliability at different voltages.
 
 # Thanks
 I would like to thank the following sources:
