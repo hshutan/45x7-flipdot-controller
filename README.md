@@ -1,6 +1,8 @@
 # 45x7-flipdot-controller
 Custom PCB controller board for a single 45x7 flip dot panel from a Luminator MAX3000 SideSign
 
+![PCBFront](https://644db4de3505c40a0444-327723bce298e3ff5813fb42baeefbaa.ssl.cf1.rackcdn.com/efcd5a3d5b252e8c72fecd9c762bc942.png) ![PCBBack](https://644db4de3505c40a0444-327723bce298e3ff5813fb42baeefbaa.ssl.cf1.rackcdn.com/0564cc1702dee4a132bf6b567288d8c7.png)
+
 # How To
 
 You will need the following items to assemble a flip dot sign using my PCB
@@ -13,6 +15,8 @@ You will need the following items to assemble a flip dot sign using my PCB
  
 
 # Notes
+The silkscreen for the 64 pin connector is for asthetics. You should install the connector on the back of the board, and use the silkscreen for orientation.
+
 There are three voltages: Logic (5v), Flip (12-15v), LED (19v or 400mA max)
 
 HW Rev1 of the PCB does not include any current limiting for the flip dots, or for the LEDs. I am using a 60mA current limter in-line with the flip dot voltage line. The dots seem to flip based on voltage and not current, which is why I am using such a small current. The LEDs are meant to be driven at 19 volts max.
@@ -20,3 +24,8 @@ HW Rev1 of the PCB does not include any current limiting for the flip dots, or f
 My first prototype clock/sign with this PCB uses 15 volts for both the LEDs and flip dots. This means the LEDs are always on, although not near their maximum brightness. I am using a 5 volt Arduino Pro Mini, and also supplying 5 volts to the logic voltage input on the PCB.
 
 Watch for ground loops, as I believe these cause weak/un-reliable flips. Because the grounds are all "commoned" on the PCB, do not tie any of your grounds together pre-PCB.
+
+# Thanks
+I would like to thank the following sources for helping with my project:
+- [Dottie the Flip Dot Clock](http://dhenshaw.com/Art/Dottie/start.html)
+- [Rollsign Gallery](http://rollsigngallery.com/)
