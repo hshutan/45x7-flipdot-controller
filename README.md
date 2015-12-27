@@ -19,7 +19,7 @@ The silkscreen for the 64 pin connector is for aesthetics. You should install th
 
 There are three voltages: Logic (5v), Flip (12-15v), LED (19v or 400mA max)
 
-HW Rev1 of the PCB does not include any current limiting for the flip dots, or for the LEDs. I am using a 60mA current limter in-line with the flip dot voltage line. The dots seem to flip based on voltage and not current, which is why I am using such a small current. The LEDs are meant to be driven at 19 volts max.
+HW Rev1 of the PCB does not include any current limiting for the flip dots, or for the LEDs. I am using a 60mA current limiter in-line with the flip dot voltage line. The dots seem to flip best based on voltage and not current, which is why I am using such a small current. The LEDs are meant to be driven at 19 volts max, however less is safer. A current limit of 350mA would be safe for the LEDs.
 
 My first prototype clock/sign with this PCB uses 15 volts for both the LEDs and flip dots. This means the LEDs are always on, although not near their maximum brightness. I am using a 5 volt Arduino Pro Mini, and also supplying 5 volts to the logic voltage input on the PCB.
 
