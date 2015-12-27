@@ -5,7 +5,7 @@ Custom PCB controller board for a single 45x7 flip dot panel from a Luminator MA
 
 # How To
 
-**A much more [detailed How To](.#Detailed How To / Step by Step Instructions) is below**
+**A much more [detailed How To](.#Detailed-How-To-/-Step-by-Step-Instructions) is below**
 
 You will need the following items to assemble a flip dot sign using my PCB
 
