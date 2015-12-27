@@ -17,7 +17,7 @@ You will need the following items to assemble a flip dot sign using my PCB
  
 
 # Notes
-The silkscreen for the 64 pin connector is for aesthetics. You should install the connector on the back of the board, and use the silkscreen for orientation reference.
+The silkscreen for the 64 pin connector is for aesthetics. You should install the connector on the back of the board not the front, using the silkscreen for orientation reference only.
 
 There are three voltages: Logic (5v), Flip (12-15v), LED (19v or 400mA max)
 
