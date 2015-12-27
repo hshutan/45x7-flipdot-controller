@@ -9,8 +9,8 @@ You will need the following items to assemble a flip dot sign using my PCB
 
 1. The Eagle PCB in this github project, which can be ordered from [Osh Park](https://oshpark.com/shared_projects/JROcn5LK) or another fab.
 2. [The Arduino example clock program](https://github.com/hshutan/FlipDotDisplay_Clock1_SWv1) which contains my "Matrix_CoProcessor" library, a library specifically built to drive this PCB.
-3. Surface mount silicon parts (see the Digi-Key BOM file, also in this github project) as well as two through hole capacitors of your choosing. I am using 470 microfarads for the flip voltage, and 100 microfarads for the logic voltage.
-4. A Luminator MAX3000 Side Sign. I purchased mine from [Rollsign Gallery](http://rollsigngallery.com/). A single side-sign will have two 45x7 display panels inside.
+3. Surface mount silicon parts (see the Digi-Key BOM file, also in this github project) as well as two through hole capacitors of your choosing. I am using 330 microfarads for the flip voltage, and 100 microfarads for the logic voltage.
+4. A Luminator MAX3000 Side Sign. I purchased mine from [Rollsign Gallery](http://rollsigngallery.com/). A single Luminator MAX3000 side sign will have two 45x7 display panels inside, which are very easy to remove.
 5. A microcontroller or Arduino, and various power supply components to provide the different needed voltages.
  
 
@@ -25,7 +25,7 @@ My first prototype clock/sign with this PCB uses 15 volts for both the LEDs and 
 
 Watch for ground loops, as I believe these cause weak/un-reliable flips. Because the grounds are all "commoned" on the PCB, do not tie any of your grounds together pre-PCB.
 
-Luminator and MAX3000 are trade names of the Luminator Technology Group.
+Luminator and MAX3000 are trade names of the Luminator Technology Group, not mine.
 
 # Thanks
 I would like to thank the following sources for helping with my project:
