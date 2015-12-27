@@ -5,6 +5,8 @@ Custom PCB controller board for a single 45x7 flip dot panel from a Luminator MA
 
 # How To
 
+**A much more [detailed How To](.#Detailed How To / Step by Step Instructions) is below**
+
 You will need the following items to assemble a flip dot sign using my PCB
 
 1. The Eagle PCB in this github project, which can be ordered from [Osh Park](https://oshpark.com/shared_projects/JROcn5LK) or another fab.
@@ -26,6 +28,10 @@ My first prototype clock/sign with this PCB uses 15 volts for both the LEDs and 
 Watch for ground loops, as I believe these cause weak/un-reliable flips. Because the grounds are all "commoned" on the PCB, do not tie any of your grounds together pre-PCB.
 
 Luminator and MAX3000 are trade names of the Luminator Technology Group, not mine.
+
+
+# Detailed How To / Step by Step Instructions
+1. abc.
 
 # Thanks
 I would like to thank the following sources:
