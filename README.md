@@ -35,14 +35,18 @@ Luminator and MAX3000 are trade names of the Luminator Technology Group, not min
 2. Order PCB in this github project, it can be ordered with a few clicks from [Osh Park](https://oshpark.com/shared_projects/JROcn5LK)
 3. Order the bill of materials ([see CSV file](https://github.com/hshutan/45x7-flipdot-controller/blob/master/FlipDotBOM.csv)) plus grab two spare through hole capacitors. Try a 50 volt 330 microfarad, and a 16 volt 100 microfarad.
 4. Take apart the MAX3000 side sign and remove both of the 45x7 panels.
-5. Assemble the PCB by placing all components and soldering or using hot air to reflow. The PCB has very little silk screen, for aesthetics, pin 1 of all ICs is in the lower left, when viewing the board from the top (see PCB pictures at the top of this page). The 0805 (2012 Metric) pads in the lower right of the PCB are for the pull-up and pull-down resistors. The 0805 (2012 Metric) pads in the upper left of the PCB are for the 0.1 microfarad shift register supporting capacitors.
+5. Assemble the PCB by placing all components and soldering. Hot air can be used for all the surface mount components.
+  - For aesthetics, the PCB has very little silk screen. Here is how to place components: Pin 1 of each IC is in the lower left of the land pattern when viewing the board from the top (see PCB pictures at the top of this page).
+  - The 0805 (2012 Metric) pads in the lower right area of the PCB are for the pull-up and pull-down resistors.
+  - The 0805 (2012 Metric) pads in the upper left of the PCB are for the 0.1 microfarad shift register supporting capacitors.
 6. Program an Arduino or microcontroller with the [test pattern](https://github.com/hshutan/FlipDotDisplay_TestPatterns_SWv1) software. A good test pattern to start with is `testPattern2()`
 7. Hook up the Arduino per the comments in the code:
   - Arduino Uno pin 11, to SER on PCB
   - Arduino Uno pin 13, to SCK on PCB
   - Arduino Uno pin 10, to RCK on PCB
   - Arduino 5v, to 5v+ on PCB
-8. Connect a power supply (start with 10-12 volts) to GND and Flip+ on the PCB. For prototyping, use a constant voltage/constant current power supply. This will allow you to limit the current to 100mA (or less) for safety, and also to test flip reliability at different voltages.
+8. Connect a power supply (start with 10-12 volts) to GND and Flip+ on the PCB.
+  - For prototyping, use a constant voltage/constant current power supply. This will allow you to limit the current to 100mA (or less) for safety, and also to test flip reliability at different voltages. If you are using my `Matrix_CoProcessor` library that comes with the [test pattern](https://github.com/hshutan/FlipDotDisplay_TestPatterns_SWv1) software, then there is little risk of a flip dot being energized for more than a few hundred microseconds, however use current limiting of 100mA or less will prevent any damage if any paths remain energized for too long.
 
 # Thanks
 I would like to thank the following sources:
