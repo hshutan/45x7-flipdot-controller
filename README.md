@@ -31,9 +31,11 @@ Luminator and MAX3000 are trade names of the Luminator Technology Group, not min
 
 <a name="detailed"></a>
 # Detailed How To / Step by Step Instructions
-1. Acquire a Luminator MAX3000 Side Sign. I found mine on [Rollsign Gallery](http://rollsigngallery.com/). A single Luminator side sign will contain two 45x7 panels.
-2. Order PCB in this github project, it can be ordered with a few clicks from [Osh Park](https://oshpark.com/shared_projects/JROcn5LK)
-3. Order the bill of materials ([see CSV file](https://github.com/hshutan/45x7-flipdot-controller/blob/master/FlipDotBOM.csv)) plus grab two spare through hole capacitors. Try a 50 volt 330 microfarad, and a 16 volt 100 microfarad.
+1. Acquire a Luminator MAX3000 Side Sign. I found mine on [Rollsign Gallery](http://rollsigngallery.com/).
+  - A single Luminator side sign will contain two 45x7 panels.
+2. Order the PCB in this github project, it can be ordered with a few clicks from [Osh Park](https://oshpark.com/shared_projects/JROcn5LK)
+3. Order the bill of materials ([see CSV file](https://github.com/hshutan/45x7-flipdot-controller/blob/master/FlipDotBOM.csv))
+  - Also grab two spare through hole capacitors from your parts bin. Try a 50 volt 330 microfarad for the flip voltage, and a 16 volt 100 microfarad capacitor for the logic voltage.
 4. Take apart the MAX3000 side sign and remove both of the 45x7 panels.
 5. Assemble the PCB by placing all components and soldering. Hot air can be used for all the surface mount components.
   - For aesthetics, the PCB has very little silk screen. Here is how to place components: Pin 1 of each IC is in the lower left of the land pattern when viewing the board from the top (see PCB pictures at the top of this page).
