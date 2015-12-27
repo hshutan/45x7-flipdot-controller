@@ -25,6 +25,8 @@ My first prototype clock/sign with this PCB uses 15 volts for both the LEDs and 
 
 Watch for ground loops, as I believe these cause weak/un-reliable flips. Because the grounds are all "commoned" on the PCB, do not tie any of your grounds together pre-PCB.
 
+Luminator and MAX3000 are trade names of the Luminator Technology Group.
+
 # Thanks
 I would like to thank the following sources for helping with my project:
 - [Dottie the Flip Dot Clock](http://dhenshaw.com/Art/Dottie/start.html)
