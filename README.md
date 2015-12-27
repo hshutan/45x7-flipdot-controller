@@ -46,7 +46,7 @@ Luminator and MAX3000 are trade names of the Luminator Technology Group, not min
   - Arduino Uno pin 10, to RCK on PCB
   - Arduino 5v, to 5v+ on PCB
 8. Connect a power supply (start with 10-12 volts) to GND and Flip+ on the PCB.
-  - For prototyping, use a constant voltage/constant current power supply. This will allow you to limit the current to 100mA (or less) for safety, and also to test flip reliability at different voltages. If you are using my `Matrix_CoProcessor` library that comes with the [test pattern](https://github.com/hshutan/FlipDotDisplay_TestPatterns_SWv1) software, then there is little risk of a flip dot being energized for more than a few hundred microseconds, however use current limiting of 100mA or less will prevent any damage if any paths remain energized for too long.
+  - For prototyping, use a constant voltage/constant current power supply. This will allow you to limit the current to 100mA (or less) for safety, and also to test flip reliability at different voltages. If you are using my `Matrix_CoProcessor` library that comes with the [test pattern](https://github.com/hshutan/FlipDotDisplay_TestPatterns_SWv1) software, then there is little risk of a flip dot being energized for more than a few hundred microseconds, however you should still use current limiting of 100mA or less to prevent damage if any paths remain energized for too long.
 
 # Thanks
 I would like to thank the following sources:
