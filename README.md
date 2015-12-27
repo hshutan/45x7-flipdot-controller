@@ -5,7 +5,7 @@ Custom PCB controller board for a single 45x7 flip dot panel from a Luminator MA
 
 # How To
 
-**A much more [detailed How To](.#Detailed-How-To-/-Step-by-Step-Instructions) is below**
+**A much more [detailed How To](#detailed) is below**
 
 You will need the following items to assemble a flip dot sign using my PCB
 
@@ -29,7 +29,7 @@ Watch for ground loops, as I believe these cause weak/un-reliable flips. Because
 
 Luminator and MAX3000 are trade names of the Luminator Technology Group, not mine.
 
-
+<a name="detailed"></a>
 # Detailed How To / Step by Step Instructions
 1. abc.
 
