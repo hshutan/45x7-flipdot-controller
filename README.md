@@ -3,13 +3,13 @@ Custom PCB controller board for a single 45x7 flip dot panel from a Luminator MA
 
 # How To
 
-You will need the following items to assemble your
+You will need the following items to assemble a flip dot sign using my PCB
 
-1. This PCB from [Osh Park](https://oshpark.com/shared_projects/JROcn5LK) or another fab.
-2. [The Arduino example clock program](https://github.com/hshutan/FlipDotDisplay_Clock1_SWv1) which contains my Matrix CoProcessor library, a library specifically built to drive this PCB.
-3. The surface mount silicon parts (see the Digi-Key BOM file in this project) as well as two through hole capacitors of your choosing. I am using 470 microfarads for the flip voltage, and 100 microfarads for the logic voltage.
-4. A Luminator MAX3000 Side Sign. I purchased mine from [Rollsign Gallery](http://rollsigngallery.com/)
-5. A microcontroller/Arduino, and various power supply components
+1. The Eagle PCB in this github project, which can be ordered from [Osh Park](https://oshpark.com/shared_projects/JROcn5LK) or another fab.
+2. [The Arduino example clock program](https://github.com/hshutan/FlipDotDisplay_Clock1_SWv1) which contains my "Matrix_CoProcessor" library, a library specifically built to drive this PCB.
+3. Surface mount silicon parts (see the Digi-Key BOM file, also in this github project) as well as two through hole capacitors of your choosing. I am using 470 microfarads for the flip voltage, and 100 microfarads for the logic voltage.
+4. A Luminator MAX3000 Side Sign. I purchased mine from [Rollsign Gallery](http://rollsigngallery.com/). A single side-sign will have two 45x7 display panels inside.
+5. A microcontroller or Arduino, and various power supply components to provide the different needed voltages.
  
 
 # Notes
