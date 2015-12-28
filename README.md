@@ -33,7 +33,7 @@ Luminator and MAX3000 are trade names of the Luminator Technology Group, not min
 # Detailed How To / Step by Step Instructions
 1. Acquire a Luminator MAX3000 Side Sign. I found mine on [Rollsign Gallery](http://rollsigngallery.com/).
   - A single Luminator side sign will contain two 45x7 panels.
-2. Order the PCB in this github project, it can be ordered with a few clicks from [Osh Park](https://oshpark.com/shared_projects/JROcn5LK)
+2. Order the PCB in this github project, it can be ordered with a few clicks from [OSH Park](https://oshpark.com/shared_projects/JROcn5LK)
 3. Order the bill of materials ([see CSV file](https://github.com/hshutan/45x7-flipdot-controller/blob/master/FlipDotBOM.csv))
   - Also grab two spare through hole capacitors from your parts bin. Try a 50 volt 330 microfarad for the flip voltage, and a 16 volt 100 microfarad capacitor for the logic voltage.
 4. Take apart the MAX3000 side sign and remove both of the 45x7 panels.
