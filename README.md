@@ -14,11 +14,14 @@ Custom PCB controller board for a single 45x7 flip dot panel from a Luminator MA
 
 You will need the following items to assemble a flip dot sign using my PCB
 
-1. The Eagle PCB in this github project, which can be ordered from [OSH Park](https://oshpark.com/shared_projects/JROcn5LK) or another fab.
-2. [The Arduino example clock program](https://github.com/hshutan/FlipDotDisplay_Clock1_SWv1) which contains my `Matrix_CoProcessor` library, a library specifically built to drive this PCB.
-3. Surface mount silicon parts (see the Digi-Key BOM file, also in this github project) as well as two through hole capacitors of your choosing. I am using 330 microfarads for the flip voltage, and 100 microfarads for the logic voltage.
-4. A Luminator MAX3000 Side Sign. I purchased mine from [Rollsign Gallery](http://rollsigngallery.com/). A single Luminator MAX3000 side sign will have two 45x7 display panels inside, which are very easy to remove.
+1. The PCB in this github project which can be ordered from [OSH Park](https://oshpark.com/shared_projects/JROcn5LK) or another fab.
+2. [My simple Arduino clock program](https://github.com/hshutan/FlipDotDisplay_Clock1_SWv1) which contains my `Matrix_CoProcessor` library, a library specifically built to drive this PCB.
+3. Surface mount silicon parts: see the [Digi-Key BOM file](https://github.com/hshutan/45x7-flipdot-controller/blob/master/FlipDotBOM.csv)
+  - Note that the Digi-Key BOM does not include the two through hole capacitors you will need.
+4. A Luminator MAX3000 Side Sign.
+  - I purchased mine from [Rollsign Gallery](http://rollsigngallery.com/). A single Luminator MAX3000 side sign will have two 45x7 display panels inside, which are very easy to remove.
 5. A microcontroller or Arduino, and various power supply components to provide the different needed voltages.
+  - I like Paul Stoffregen's Arduino compatible [Teensy](http://www.pjrc.com/) but often use [Arduino Pro Mini](https://www.arduino.cc/en/Main/ArduinoBoardProMini) clones from eBay for less demanding projects.
  
 
 # Notes
