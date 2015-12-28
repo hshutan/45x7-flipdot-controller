@@ -1,13 +1,12 @@
 # 45x7-flipdot-controller
 Custom PCB controller board for a single 45x7 flip dot panel from a Luminator MAX3000 SideSign
 
-![Finished PCB](http://i.imgur.com/6eItKhl.png)
+![Flip Dot Animation 1](http://i.imgur.com/tjzsku2.gif)
 
 ![PCBFront](https://644db4de3505c40a0444-327723bce298e3ff5813fb42baeefbaa.ssl.cf1.rackcdn.com/efcd5a3d5b252e8c72fecd9c762bc942.png) ![PCBBack](https://644db4de3505c40a0444-327723bce298e3ff5813fb42baeefbaa.ssl.cf1.rackcdn.com/0564cc1702dee4a132bf6b567288d8c7.png)
 
 ## Project Media
-![Flip Dot Animation 1](http://i.imgur.com/tjzsku2.gif)
-![Flip Dot Animation 2](http://i.imgur.com/roIMQLl.gif) 
+![Finished PCB](http://i.imgur.com/6eItKhl.png)![Flip Dot Animation 2](http://i.imgur.com/roIMQLl.gif) 
 
 # How To
 
