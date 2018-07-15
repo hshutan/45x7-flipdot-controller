@@ -1,3 +1,11 @@
+**This project is old! I do not recommend my hardware based project anymore, check out my RS-485 protocol-based projects! [Main Flipdot Project Page Here](https://github.com/hshutan/FlipDotCompendium)**
+
+
+
+---
+
+
+
 ![Flip Dot Animation 1](http://i.imgur.com/tjzsku2.gif)
 
 # 45x7-flipdot-controller
